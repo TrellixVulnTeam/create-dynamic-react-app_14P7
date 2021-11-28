@@ -1,13 +1,20 @@
 {
-  "name": "expensify-app",
+  "name": "create-dynamic-react-app",
   "version": "1.0.0",
-  "description": "This an app made by me for learning react.",
+  "description": "This is an skleton for dynamic react application.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve --open",
     "watch": "webpack --watch"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Navin3d/create-dynamic-react-app.git"
   },
   "author": "Navin",
   "license": "ISC",
@@ -20,6 +27,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "bootstrap": "^5.1.0",
     "css-loader": "^5.0.1",
     "firebase": "^8.2.4",
     "node": "^15.4.0",
